@@ -64,7 +64,7 @@ const Header = () => {
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           aria-label="Toggle menu"
         >
-          {mobileMenuOpen ? <FiX size={24}  as="svg" /> : <FiMenu size={24}  as="svg" />}
+          {mobileMenuOpen ? <FiX size={24}  /> : <FiMenu size={24}  />}
         </button>
       </nav>
 
